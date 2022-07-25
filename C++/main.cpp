@@ -11,6 +11,9 @@ int main()
 	// c is one byte means you can put a number between 0 - 255
 	unsigned char c = 0;
 
+	// this will be same as 255 as 1 = 0000 0001 and to become 0, we need 1111 1111 = -1, which is 255
+	c = -1;
+
 	// this will return 0 as c can contain up to 255
 	// 1 0000 0000 and 1 will be discarded becoming just 0
 	// c = 256
@@ -34,7 +37,11 @@ int main()
 
 	// this will be come -1 as it is 1111 1111 -> -1
 
-	c1 = 255 
+	c1 = 255;
+
+	// Two's complement to find a negative number
+	// invert the digit and add one to the result 
+
 
 #pragma endregion
 
