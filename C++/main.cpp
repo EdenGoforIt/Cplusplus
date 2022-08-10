@@ -17,7 +17,7 @@ int main()
 	// this will return 0 as c can contain up to 255
 	// 1 0000 0000 and 1 will be discarded becoming just 0
 	// c = 256
-	
+
 	// char allows negative numbers
 	// -128 ~ 0 ~ 127 
 	// first bit will be using for check negative and positive number
@@ -43,9 +43,19 @@ int main()
 	// invert the digit and add one to the result 
 
 
+	// float type: it's always better to explicitly add type when calculating
+	// because the way of the number and float works, it could cause issues later on
+	float f = 10.43f + (float)20;
+	 
+
 #pragma endregion
 
+#pragma region Operator
 
 
-	return 0;
+
+#pragma endregion
+	 
+
+	return c1;
 }
